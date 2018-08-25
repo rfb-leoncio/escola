@@ -1,7 +1,6 @@
 ﻿/*estilo de fonte padrão*/
 h1, .box a {
     font-family: 'Kosugi', sans-serif;
-    z-index: -1;
 }
 
 p {
@@ -16,6 +15,7 @@ p {
     width: 100%;
     position: fixed;
     background-color: #fff;
+    z-index: 5;
 }
                                                                             
 .menu ul li {
@@ -86,6 +86,8 @@ main .box a {
     font-size: 60px;
     position: relative;
     top: 10px;
+    text-decoration: none;
+    color: #000;
 }
 
 .box {
@@ -96,5 +98,5 @@ main .box a {
     margin-left: -125px;
     left: 50%;
     position: relative;
-    z-index: -1;
+    z-index: 4;
 }
