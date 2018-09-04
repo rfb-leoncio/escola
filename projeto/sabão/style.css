@@ -16,6 +16,7 @@ p, li, h3 {
     width: 100%;
     position: fixed;
     background-color: #fff;
+    z-index: 5;
 }
                                                                             
 .menu ul li {
@@ -120,4 +121,16 @@ footer img {
 
 p.modifie {
     text-indent: 10px;
+}
+
+.img img {
+    margin-left: -250px;
+    position: relative;
+    left: 50%;
+}
+
+.video {
+    text-align: center;
+    font-size: 30px;
+    z-index: 4;
 }
