@@ -1,6 +1,7 @@
 /*estilo de fonte padrão*/
-h1, h2, .box a {
+h1, h2, h4, .box a {
     font-family: 'Kosugi', sans-serif;
+    text-align: center;
 }
 
 p {
@@ -109,7 +110,7 @@ main .introdução p {
 }
 
 /*box de estequiometria*/
-main .estequiometria {
+main .caixa {
     width: 500px;
     border: 2px solid #000;
     height: 600px;
@@ -120,13 +121,13 @@ main .estequiometria {
     z-index: 4;
 }
 
-main .estequiometria .conceito h1 {
+main .caixa .conceito h1 {
     text-align: center;
     font-size: 40px;
     
 }
 
-main .estequiometria .conceito p {
+main .caixa .conceito p {
     width: 300px;
     text-indent: 15px;
     position: relative;
@@ -144,8 +145,7 @@ main .estequiometria .conceito p {
     text-indent: 10px;
 }
 
-.box1 h4 {
-    text-indent: 20px;
+.box1 h4, .box2 h4 {
     text-decoration: underline; 
 }
 
@@ -158,7 +158,4 @@ main .estequiometria .conceito p {
     text-indent: 10px;
 }
 
-.box2 h4 {
-    text-indent: 20px;
-    text-decoration: underline;
-}
+
