@@ -83,13 +83,21 @@ footer img {
 }
 
 /*introdução e titulo*/
+.titulo {
+    width: 500px;
+    margin-left: -250px;
+    position: relative;
+    left: 50%;
+    border: 5px dotted #000;
+}
+
 .titulo h1 {
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
 }
 
-.introdução p {
+.titulo p {
     width: 300px;
     font-size: 20px;
     position: relative;
