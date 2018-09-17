@@ -81,31 +81,59 @@ footer img {
     top: 50px;
 }
 
-/*grid das box dos projetos*/
-
-.projeto-sabão {
+/*grid das box 1*/
+.box1  {
     display: grid;
     width: 100%;
     height: 300px;
     grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
-.projeto-sabão img {
+.box1 img {
     object-fit: cover;
     grid-area: 1/ 1/ span 3/ span 3;
     z-index: -1;
     border-radius: 50px;
-    border: 5px dotted #000;
+    border: 7px dotted #000;
 }
 
-.projeto-sabão p {
+.box1 p {
     background-color: #000;
     color: #fff;
     grid-area: 2/ 3 / span 3/ span 3;
     text-align: center;
 }
 
-.projeto-sabão p a {
+.box1 p a {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/*grid das box2*/
+.box2 {
+    display: grid;
+    width: 100%;
+    height: 300px;
+    grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.box2 img {
+    object-fit: cover;
+    grid-area: 1/ 7/ span 3/ span 3;
+    z-index: -1;
+    border-radius: 50px;
+    border: 7px dotted #000;
+}
+
+.box2 p {
+    background-color: #000;
+    color: #fff;
+    grid-area: 2/ 5 / span 3/ span 3;
+    text-align: center;
+}
+
+.box2 p a {
     font-size: 30px;
     font-weight: bold;
     color: #fff;
